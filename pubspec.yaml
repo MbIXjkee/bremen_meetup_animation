@@ -1,0 +1,23 @@
+name: bremen_meetup_animation
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sliver_catalog: ^0.1.4
+  lottie: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mjk_lint_rules: ^4.0.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
